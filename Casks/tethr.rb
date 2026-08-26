@@ -17,7 +17,7 @@ cask "tethr" do
 
   # The build is Tahoe-only (LSMinimumSystemVersion 26.0). Without this Homebrew
   # would happily install a binary the machine cannot launch.
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Tethr.app"
 
